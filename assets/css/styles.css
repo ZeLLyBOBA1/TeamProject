@@ -1,52 +1,25 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
-
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #544750;
-    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
 }
 
-/* Navbar brand styling */
-.navbar-brand {
-    font-weight: bold;
+h2, h3 {
+    margin: 50px;
+    padding: 25px;
+    text-decoration: underline;
 }
 
-/* Gallery item styling */
-.gallery-item {
-    padding: 0px;
-    overflow: hidden;
+p {
+    margin-bottom: 50px;
 }
 
-.gallery img {
-    width: 100%;
-    height: 250px; /* Set a fixed height for all images */
-    display: block;
-    border-radius: 4px; /* Optional: Adds a slight rounding to the images */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-}
 
-/* Header */
-header {
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #544750;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: #fff;
+
+/* Patricks css */
+
+    
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .img1 {
@@ -55,6 +28,7 @@ header {
     border: 1px solid black;
     border-radius: 50%;
 }
+
 .menu {
     /* background-color: green; */
     width: 60%;
@@ -62,6 +36,7 @@ header {
     margin: 30px auto;
     text-align: center;
 }
+
 .menu a {
     font-size: 30px;
     text-decoration: none;
@@ -70,34 +45,56 @@ header {
     -webkit-text-stroke: 1px black;
     font-family: impact;
 }
+
 .menu a:hover {
     font-size: 45px;
 }
+/*--Header Above Here--*/
 
-/* Main content should grow to take up available space */
-main {
-    flex: 1;
-    padding: 1rem;
-    margin-top: 100px; /* Add space to account for the fixed header */
+
+
+
+
+/*Footer Styling Below*/
+
+.social {
+  background-color:rgb(247, 188, 8);
+  width: 100%;
+  /* position: absolute; */
+  display: block;
+  margin: auto auto 0 auto;   
+  text-align: center;
+  bottom: 0px;
 }
 
-/* Footer */
-footer {
-    padding: 20px 0;
-    background-color: #f8f9fa;
-    box-shadow: 0 -2px 2px #544750;
+.social a {
+    color: black;
 }
 
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+.fa {
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #544750;
+.fa-instagram {
+color: black
+}
+
+.fa-facebook {
+  color: black
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
 }
