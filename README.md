@@ -63,3 +63,5 @@ This project is an artist portfolio website designed to showcase the artwork of 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+New test
