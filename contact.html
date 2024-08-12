@@ -1,53 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
 <body>
-    <!--Header-->
-    <header>
-        <a href="index.html">
-        <h1 id="logo">Team Project</h1>
-    </a>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!-- Comments Field -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <!-- How Did You Hear About Us Field -->
+        <label for="source">How did you hear about us?</label>
+        <select id="source" name="source">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <!-- Send Button -->
+        <input type="submit" value="Send">
+    </form>
 
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-
-    <nav>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html"  class="active">Contact Us</a></li>
-        </ul>
-    </nav>
-    </header>
-
-    <!--Main Content-->
-    <main>
-    <section id="contactus" class="contactusform">
-        <form id="sign-form" method="POST" action="https://formdump.codeinstitute.net">
-                 
-            <h2>Get in touch</h2>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-            <br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-            <br>
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" required>
-            <br>
-            <button type="submit" class="submit-button">Send!</button>
-        </form>
-    </section>
-    <section>
-        <h2 class="hidden-heading">Contact Us</h2>
-    </section>
-    </main>
-
-    <footer>
-
-    </footer>
+    <!-- Confirmation Message -->
+    <div id="confirmationMessage" style="display:none; color: green; margin-top: 20px;">
+        Message Sent, someone will be in touch with you shortly.
+    </div>
 </body>
-</html>
