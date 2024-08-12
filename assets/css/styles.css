@@ -1,0 +1,13 @@
+body {
+    background-color: whitesmoke;
+}
+
+h2, h3 {
+    margin: 50px;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 50px;
+}
