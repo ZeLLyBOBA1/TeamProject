@@ -22,6 +22,39 @@ This project is an artist portfolio website designed to showcase the artwork of 
 - **Fixed Navigation:** A fixed navigation bar for easy access to different sections of the site.
 - **Social Media Links:** Icons linking to social media profiles are included in the footer.
 
+## User Stories
+
+### 1. **As a Visitor**
+   - **Goal:** I want to view the artist's portfolio to appreciate their work and potentially make a purchase or commission.
+   - **Acceptance Criteria:**
+     - I can see a gallery of the artist's artwork.
+     - Each piece of artwork is displayed with high-quality images.
+     - I can view the artwork in a responsive layout that adjusts for mobile and desktop views.
+     - There is an "About" section where I can read more about the artist.
+     - There is a "Contact" form where I can reach out to the artist for inquiries or commissions.
+
+### 2. **As a Site Owner**
+   - **Goal:** I want to effectively showcase my artwork and provide visitors with an easy way to contact me for potential projects or purchases.
+   - **Acceptance Criteria:**
+     - The gallery layout adjusts automatically based on screen size (responsive design).
+     - I can provide detailed information about myself in the "About" section.
+     - I can ensure that the contact form is functional and submissions are directed to my preferred email or contact method.
+
+### 3. **As a Mobile User**
+   - **Goal:** I want to have a seamless browsing experience on my mobile device.
+   - **Acceptance Criteria:**
+     - The gallery should display as a single column for easy scrolling on mobile devices.
+     - Images should be scaled and cropped to fit the screen without distortion.
+     - Navigation should be easily accessible with a mobile-friendly menu.
+     - The "About" section and "Contact" form should be easily readable and accessible on mobile devices.
+
+### 4. **As a Desktop User**
+   - **Goal:** I want to view the artist's portfolio in a grid format that takes advantage of the larger screen space.
+   - **Acceptance Criteria:**
+     - The gallery should display in a grid with three columns.
+     - Images should be presented in a consistent size, maintaining their aspect ratio.
+     - The "About" section and "Contact" form should be visually prominent and easy to navigate.
+
 ## Technologies Used
 
 - **HTML5**
@@ -59,9 +92,3 @@ This project is an artist portfolio website designed to showcase the artwork of 
 - **Bootstrap:** [Bootstrap](https://getbootstrap.com/) for the responsive grid layout and components.
 - **Font Awesome:** [Font Awesome](https://fontawesome.com/) for the social media icons.
 - **Google Fonts:** [Google Fonts](https://fonts.google.com/) for the typography.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-New test
